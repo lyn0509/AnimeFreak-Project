@@ -1,0 +1,182 @@
+body{
+    background-color :#10172f
+/*background-image : url(fond4.jpg);
+background-size: cover;
+background-position:center;
+background-repeat : no-repeat;
+background-attachment: scroll;*/
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logo {
+width: 200px;
+}
+
+.doodle1 {
+    width: 200px;
+}
+
+.doodle2 {
+    transform: scaleX(-1);
+    width: 200px;
+}
+
+.titre{
+    color : #354a95;
+font-size : 50px;
+opacity : 0.7;
+text-decoration : underline;
+text-align:center;
+text-indent : 20px;
+border-width : 5px;
+border-style : outset;
+border-color : #7C93E6;
+border-bottom-left-radius : 15px;
+border-top-right-radius : 15px;
+box-shadow : 5px 5px 3px;
+}
+
+.searchbar {
+    margin-left: 30px;
+    width: 250px;
+    height: 30px;
+}
+
+.sous-titre{
+padding-left: 30px;
+color : #2e407f;
+font-size : 35px;
+text-decoration : underline;
+}
+
+.petit_titre{
+padding-left: 30px;
+color : #2e407f;
+font-size : 35px;
+}
+
+.titre_anime{
+color : #2e407f;
+font-size : 30px;
+}
+.titre_anime:hover {
+    color:red;
+}
+
+.poster{
+width: 400px;
+height: 580px;
+}
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    gap: 75px;
+    max-width: 1200px;
+}
+
+.anime_card {
+    text-align: center;
+}
+
+.wallpaper_anime {
+    width: 800px;
+    height: 400px;
+    padding-left: 580px;
+}
+
+.trailer {
+    padding-left: 30px;
+}
+
+.texte {
+    font-size: 30px;
+    color : rgb(128, 148, 201);
+    padding-left: 30px;
+}
+
+.favorite-btn {
+    cursor: pointer;
+    font-size: 35px;
+    color: gray;
+    user-select: none;
+
+}
+
+.favorite-btn.active {
+    color: gold;
+}
+
+#liste_favoris {
+    font-size: 30px;
+    font-weight: bold;
+    color: #98a9e7;
+    padding-left: 30px;
+}
+
+#liste_favoris ::before{
+    content: "●";
+    color: #98a9e7;
+    margin-right: 15px;
+}
+
+#compteur {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    color: #98a9e7;
+
+}
+
+.question {
+    color: #7C93E6;
+    font-size: 20px;
+}
+
+.reponse {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(5, 23, 122);
+    font-size: 15px;
+}
+
+.reponse.selectionnee {
+    border: 2px solid black;
+}
+
+.reponse.correcte {
+    background-color: green;
+    color: white;
+}
+
+.reponse.fausse {
+    background-color: red;
+    color: white;
+}
+
+#valider-quiz {
+    font-size: 15px ;
+    color: rgb(5, 23, 122);
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#resultat {
+    color: #7C93E6;
+    font-size: 20px;
+}
+
+
+.wallpaper_quiz {
+    width: 800px;
+    height: 400px;
+    padding-left: 30px;
+}
